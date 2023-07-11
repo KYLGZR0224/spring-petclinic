@@ -8,7 +8,7 @@ pipeline {
     AWS_CREDENTIALS_NAME = "AWSCredentials"
     REGION = "ap-northeast-2"
     DOCKER_IMAGE_NAME = "aws15-spring-petclinic"
-    DOCKER_TAG = "1.0"
+    DOCKER_TAG = "1.0.1"
     ECR_REPOSITORY = "257307634175.dkr.ecr.ap-northeast-2.amazonaws.com/"
     ECR_DOCKER_IMAGE = "${ECR_REPOSITORY}/${DOCKER_IMAGE_NAME}"
     ECR_DOCKER_TAG = "${DOCKER_TAG}"
