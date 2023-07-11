@@ -23,7 +23,7 @@ pipeline {
       }
     }
 
-    stage('Docker Image Build' {
+    stage('Docker Image Build') {
       steps {
         dir("${env.WORKSPACE}") {
           sh 'docker build -t aws15-spring-petclinic:1.0 .'
